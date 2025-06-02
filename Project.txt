@@ -1,0 +1,47 @@
+環境：
+node - v18.19.0
+tool - vite
+DB - PGlite
+TypeScript - React
+
+画面構成：
+・ホーム画面（検索および記事表示）
+・記事追加
+・記事詳細
+
+共通：
+・サイドバー（画面遷移用）
+
+ディレクトリ構成：
+src
+|-- App.css
+|-- App.tsx
+|-- assets
+|   `-- react.svg
+|-- components
+|   |-- AddNews.css
+|   |-- AddNews.tsx
+|   |-- Home.css
+|   |-- Home.tsx
+|   |-- NewsDetail.css
+|   |-- NewsDetail.tsx
+|   |-- Sidebar.css
+|   `-- Sidebar.tsx
+|-- hooks
+|   |-- useDatabase.tsx
+|   |-- useLearning.tsx
+|   |-- useNews.tsx
+|   |-- useQuestion.tsx
+|   |-- useRecord.tsx
+|   `-- useTag.tsx
+|-- index.css
+|-- main.tsx
+|-- types
+|   |-- Learning.tsx
+|   |-- News.tsx
+|   |-- Question.tsx
+|   |-- Record.tsx
+|   `-- Tag.tsx
+`-- vite-env.d.ts
+
+5 directories, 25 files
